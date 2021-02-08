@@ -1,5 +1,67 @@
+@media only screen and (max-width: 1060px) {
+#personal-archives {
+  padding-bottom: 70px !important;
+}
+}
+
+@media only screen and (max-width: 1030px) {
+#personal-archives {
+  padding-bottom: 50px !important;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.text-content {
+  width: 100% !important;
+}
+.flex {
+  display: block !important;
+}
+.big-pic {
+  margin-top:100px !important;
+}
+.sidebar {
+  display: none !important;
+}
+.content {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  width: 100% !important;
+  display: block !important;
+}
+.js-button1 {
+  display: block !important;
+}
+
+.js-button2 {
+  display: block !important;
+}
+
+.sidebar {
+  width: 100% !important;
+  margin-right: 20px !important;
+  padding-right: 0px !important;
+  border-right: none !important;
+  position: static !important;
+}
+}
+
 body {
   margin: 0px;
+}
+
+.js-button1 {
+  position: absolute;
+  right: 22px;
+  top: -4px;
+  display: none;
+}
+
+.js-button2 {
+  position: absolute;
+  right: 22px;
+  top: -4px;
+  display: none;
 }
 
 .sidebar {

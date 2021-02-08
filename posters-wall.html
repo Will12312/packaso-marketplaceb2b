@@ -5,12 +5,17 @@
   <link href="style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&family=Trirong:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>Document</title>
 </head>
 <body>
   <div style="display: flex;">
     <div class="sidebar">
-      <div id="box-name"><a href="about.html" style="text-decoration: none;color: black;">Mirei SUGIMACHI</a></div>
+      <div id="box-name"><a href="about.html" style="text-decoration: none;color: black;">Mirei SUGIMACHI</a>
+        <div class="js-button2">
+            X
+          </div>
+      </div>
       <div id="who">
         <div style="font-weight: 700">is a global designer specialized in <br> graphic design, currently living in Paris.</div>
         <div style="font-weight: 400; color: #8188D1">est designer globale spécialisée en design graphique basée à Paris.</div>
@@ -38,8 +43,11 @@
       <div class="padding-content">
         <div class="title">
         Posters wall
+        <div class="js-button1">
+            X
+          </div>
         </div>
-        <div style="display: flex;">
+        <div class="flex">
           <div class="text-content" style="margin-right : 10%;">
             EN
             <br><br>
@@ -73,4 +81,15 @@
     </div>
   </div>
 </body>
+<script>
+  $(".js-button1").click(function() {
+  $(".sidebar").attr("style", "display: block !important");
+  $(".content").attr("style", "display: none !important");
+  })
+
+  $(".js-button2").click(function() {
+  $(".sidebar").attr("style", "display: none !important");
+  $(".content").attr("style", "display: block !important");
+  })
+</script>
 </html>
