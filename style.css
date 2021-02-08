@@ -1,12 +1,12 @@
 @media only screen and (max-width: 1060px) {
 #personal-archives {
-  padding-bottom: 70px !important;
+  padding-bottom: 50px !important;
 }
 }
 
 @media only screen and (max-width: 1030px) {
 #personal-archives {
-  padding-bottom: 50px !important;
+  padding-bottom: 30px !important;
 }
 }
 
@@ -144,7 +144,7 @@ body {
 
 #personal-archives {
   border-bottom: 2px solid black;
-  padding-bottom: 95px;
+  padding-bottom: 70px;
 }
 
 .subdivision-about {
