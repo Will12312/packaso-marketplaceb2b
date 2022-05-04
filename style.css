@@ -343,7 +343,7 @@ body {
 }
 
 .text-diploma {
-  font-family:'Eurostile LT Std';
+  font-family: "Eurostile LT Std";
   color: white;
   font-weight: 400;
   font-size: 14px;
@@ -351,6 +351,7 @@ body {
 }
 
 .text-diploma-title {
+  font-family: "Eurostile LT Std";
   color: white;
   font-weight: 600;
   font-size: 20px;
