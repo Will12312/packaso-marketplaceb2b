@@ -2,11 +2,17 @@
 #personal-archives {
   padding-bottom: 50px !important;
 }
+.text-diploma {
+  margin-bottom:  20px !important;
+}
 }
 
 @media only screen and (max-width: 1030px) {
 #personal-archives {
   padding-bottom: 30px !important;
+}
+.text-diploma {
+  margin-bottom:  20px !important;
 }
 }
 
@@ -19,6 +25,11 @@
   .last-image {
     margin-bottom: 20px !important;
   }
+
+  #first-img-diploma {
+    margin-top:  0px !important;
+  }
+
   .three-little {
     display: block !important;
   }
