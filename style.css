@@ -1,42 +1,142 @@
-body { background-color:#FDF7F2 !important;
-      font-family: 'Poppins', sans-serif;
- }
+body {
+  font-family: 'Lato', sans-serif !important;
+}
 
 nav {background-color:#FDF7F2 !important}
 
 .btn-custom {
   color:#FDF7F2;
-  background-color:#56876D;
+  background-color:#036B61;
   display: inline-block;
   outline: none;
   cursor: pointer;
-  border-radius: 3px;
-  font-size: 14px;
+  border-radius: 50px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 16px;
-  padding: 2px 16px;
-  height: 38px;
+  padding: 15px 30px;
   min-width: 96px;
   min-height: 38px;
   border: none;
+  text-decoration: none;
   transition: background-color .17s ease,color .17s ease;
 
 }
 
 .btn-custom:hover {
   color:#FDF7F2;
-  background-color: #04724D;}
+  background-color: #036B61;}
 
 .petit-trait {
-  background-color: #56876D;
-  width: 40px;
+  background-color: #036B61;
+  width: 70px;
   height: 5px;
 }
 
 .card-text {
-  font-weight:200;
+  font-weight:300;
 }
 
 .fw-200 {
   font-weight: 200;
+}
+
+.card-custom {
+  background-color :#036B61;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  border-radius:40px;
+}
+
+.card-title-custom {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card-link-custom {
+  color: white;
+  text-decoration:none;
+}
+
+.title-bloc {
+  font-size:60px;
+  line-height:1.1em;
+  font-weight:700;
+  margin-bottom:30px;
+}
+
+h1 {
+  font-weight:700 !important;
+}
+
+h2 {
+  margin: 30 0;
+}
+
+.navbar {
+  background-color:inherit !important;
+  padding: 20 0 !important;
+}
+
+.nav-bloc1-color{
+  background: linear-gradient(90deg, #FFFFFF 50%,  #036b61 50%);
+}
+
+.nav-link {
+  color:white !important;
+}
+
+.button-navbar {
+  background-color :#FA8A58 !important;
+}
+
+.bandeau-creme {
+  background: linear-gradient(90deg, #F2EADA 50%,  #036b61 50%);
+}
+
+.icons-bloc1 {
+  background-color:white;
+  width:50px;
+  height: 50px;
+  padding-top: 13px;
+  border: 3px solid #ff8c5a;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+
+.bloc-icons {
+  width:45%;
+  padding: 50 0;
+}
+
+.img-bloc1 {
+  position: relative;
+  top: 70px;
+}
+
+.margin-top-bot {
+  margin: 50px 0;
+}
+
+.img-bloc3 {
+  background-color:#F2EADA;
+  height: 500px !important;
+  border-radius: 50px;
+}
+
+.bloc3-icon {
+  width: 18px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.bloc3-text {
+  font-weight:300;
+}
+
+p {
+  font-weight: 300;
 }
