@@ -11,6 +11,12 @@
   .bandeau-creme {
     background:#F2EADA !important;
   }
+  .nav-link {
+    color: black !important;
+  }
+  .subtext-bloc1 {
+    color: black !important;
+  }
 }
 
 body {
@@ -256,4 +262,42 @@ p {
 
 .list-bloc1 > li {
   padding-bottom:5px;
+}
+
+.subtext-bloc1 {
+  color: white;
+}
+
+
+
+.form-suppliers {
+  background-color: #F2EADA;
+  padding: 40px;
+  border-radius:50px;
+}
+
+.input-form-suppliers {
+  border-radius: 50px;
+  border : none;
+  height: 45px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.background-showcase {
+  background-color:#F2EADA;
+  padding-top: 40px;
+  padding-bottom:40px;
+}
+
+.img-bloc-showcase {
+  width:300px;
+}
+
+.title-bloc2 {
+  font-size:60px;
+  line-height:1.1em;
+  font-weight:700;
+  margin-bottom:60px;
+  text-align:center;
 }
