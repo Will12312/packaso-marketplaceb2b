@@ -19,6 +19,9 @@
   .subtext-bloc1 {
     color: black !important;
   }
+  .bloc3-margin-text {
+    margin-left: 0px !important;
+  }
 }
 
 body {
