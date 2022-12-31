@@ -26,6 +26,10 @@
   .nav-link1:hover {
     color: black !important;
   }
+
+  .padding-right-suppliers-bloc1 {
+    padding-right: 0px !important;
+  }
 }
 
 body {
@@ -241,7 +245,7 @@ p {
 }
 
 .title-bloc4 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.1em;
     font-weight: 700;
     margin-bottom: 30px;
@@ -412,4 +416,8 @@ p {
   top: 20%;
   position:relative;
   font-size:32;
+}
+
+.padding-right-suppliers-bloc1 {
+  padding-right:40px;
 }
