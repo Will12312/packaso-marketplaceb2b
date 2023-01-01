@@ -87,20 +87,49 @@ p {
 }
 
 .card-custom {
-  background-color :#036B61;
+  background-color :#F2EADA;
   height: 100%;
   width: 100%;
   color: white;
   padding: 25 25 35 25;
   border-radius: 50px;
   position:relative;
+  color:black !important;
+}
+
+.card-custom-suppliers {
+  background-color :#F2EADA;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 25 25 35 25;
+  border-radius: 50px;
+  position:relative;
+  color:black;
+}
+
+.card-custom-suppliers-bloc2{
+  background-color :#F2EADA;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 25 25 35 25;
+  border-radius: 50px;
+  position:relative;
+  color: black !important;
 }
 
 .card-title-custom {
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title-custom-suppliers {
+  margin-top: 30px;
   margin-bottom: 20px;
   text-align:center;
 }
+
 
 .card-link-custom {
   color: white;
@@ -109,6 +138,19 @@ p {
 
 .card-logo-rond {
   border: 2px solid #036B61;
+  text-align:center;
+  background-color:white;
+  border-radius:50px;
+  height: 85px;
+  width:85px;
+  position:absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-logo-rond-suppliers {
+  border: 5px solid #036B61;
   text-align:center;
   background-color:white;
   border-radius:50px;
@@ -226,10 +268,7 @@ p {
 }
 
 .icons-bloc2 {
-  width: 70%;
-  height: 70%;
-  top: 12%;
-  position:relative;
+  width: 50px;
 }
 
 .bloc2-display {
@@ -324,7 +363,9 @@ p {
 }
 
 .img-bloc-showcase {
-  width:300px;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .title-bloc2 {
@@ -412,7 +453,7 @@ p {
 
 .number-suppliers {
   color:#036b61;
-  font-weight:500;
+  font-weight:700;
   top: 20%;
   position:relative;
   font-size:32;
@@ -420,4 +461,18 @@ p {
 
 .padding-right-suppliers-bloc1 {
   padding-right:40px;
+}
+
+.many-more {
+  width: 50px;
+}
+
+.card-custom-suppliers-launch {
+  background-color :#036B61;
+  height: 100%;
+  width: 100%;
+  padding: 25 25 35 25;
+  border-radius: 50px;
+  position:relative;
+  color:white;
 }
