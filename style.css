@@ -39,6 +39,11 @@
     border-radius : 50px 50px 50px 50px !important;
     margin-bottom: 15px !important;
   }
+
+  .btn-custom-bloc1 {
+    display:flex !important;
+    margin:auto !important;
+  }
 }
 
 body {
@@ -66,7 +71,23 @@ p {
   border: none;
   text-decoration: none;
   transition: background-color .17s ease,color .17s ease;
+}
 
+.btn-custom-bloc1 {
+  color:#FDF7F2;
+  background-color:#036B61;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 15px 30px;
+  min-height: 38px;
+  border: none;
+  text-decoration: none;
+  transition: background-color .17s ease,color .17s ease;
 }
 
 .nav-link:hover {
