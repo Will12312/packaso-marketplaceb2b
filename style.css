@@ -512,3 +512,8 @@ p {
 .flex-even {
   flex: 1;
 }
+
+.btn-custom-newsletter:hover {
+  color:#FDF7F2;
+  background-color: #00544b;
+}
