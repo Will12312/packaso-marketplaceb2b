@@ -1,6 +1,0 @@
-Options +FollowSymlinks
-
-RewriteEngine on
-
-RewriteRule ^buyers$ index.html [L]
-RewriteRule ^buyers-sustainability$ index.html#sustainability-div [L]
