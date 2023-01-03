@@ -102,6 +102,10 @@ p {
   color:#FDF7F2;
   background-color: #00544b;}
 
+.btn-custom-bloc1:hover {
+  background-color: #00544b;
+}
+
 .petit-trait {
   background-color: #036B61;
   width: 70px;
