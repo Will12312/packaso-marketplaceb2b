@@ -1,7 +1,9 @@
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 990px) {
   .bloc-3-background {
     background-image: none !important;
   }
+}
+@media only screen and (max-width: 770px) {
   .nav-bloc1-color {
     background: none !important;
   }
@@ -43,6 +45,10 @@
   .btn-custom-bloc1 {
     display:flex !important;
     margin:auto !important;
+  }
+
+  .img-bloc3 {
+    height: auto !important;
   }
 }
 
@@ -275,8 +281,9 @@ h2 {
 }
 
 .img-bloc3 {
-  height: 400px !important;
+  height: 400px;
   border-radius: 50px;
+  max-width:100%;
 }
 
 .bloc3-icon {
