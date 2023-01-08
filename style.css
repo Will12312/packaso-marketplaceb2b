@@ -7,6 +7,11 @@
   .nav-bloc1-color {
     background: none !important;
   }
+
+  .drapeau {
+    margin-left: 0 !important;
+  }
+
   .bloc-icons {
     width: 100% !important;
   }
@@ -527,4 +532,8 @@ p {
 .btn-custom-newsletter:hover {
   color:#FDF7F2;
   background-color: #00544b;
+}
+
+.drapeau {
+  width: 30px;margin-left: 10px;
 }
