@@ -57,8 +57,9 @@
   }
 }
 
-body {
-  font-family: 'Lato', sans-serif !important;
+body, html {
+overflow-x: hidden;
+font-family: 'Lato', sans-serif !important;
 }
 
 nav {background-color:#FDF7F2 !important}
